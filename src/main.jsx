@@ -12,6 +12,8 @@ import About from './About/About';
 import Contact from './Contact/Contact';
 import Offer from './Navbar/Offer/Offer';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Register from './Register/Register';
+import Login from './Login/Login';
 
 
 
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
     errorElement: <Errorpage></Errorpage>,
     children: [
       {
-        path:'/home',
+        path:'/',
         element: <Home></Home>
       },{
         path:'/about',
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path:'/offer',
         element: <PrivateRoute> <Offer></Offer> </PrivateRoute>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      {
+        path:'/login',
+        element: <Login></Login>
       }
     ]
   },

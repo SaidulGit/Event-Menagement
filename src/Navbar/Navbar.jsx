@@ -59,10 +59,36 @@ const Navbar = () => {
   Tips
                 </NavLink>
                 </li>
+                <li>
+            
+            <NavLink
+to="/register"
+className={({ isActive, isPending }) =>
+isPending ? "pending " : isActive ? "text-red-500 underline font-bold" : ""
+}
+>
+Register
+            </NavLink>
+
+
+            </li>
+            <li>
+            
+                <NavLink
+  to="/offer"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending " : isActive ? "text-red-500 underline font-bold" : ""
+  }
+>
+  Offer
+                </NavLink>
+
+
+                </li>
             </ul>
            </div>
            <div>
-            <button>Login</button>
+            <NavLink to='/login'><button>Login</button></NavLink>
            </div>
             
            
