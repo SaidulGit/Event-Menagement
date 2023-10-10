@@ -1,8 +1,20 @@
-# React + Vite
+# Event-Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [ Private Repo Link](https://classroom.github.com/a/ehOGNGkI)
 
-Currently, two official plugins are available:
+Click here for the private repo: [https://classroom.github.com/a/ehOGNGkI](https://classroom.github.com/a/ehOGNGkI)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features of yoga Event
+* Venue Selection:
+A suitable and spacious venue that accommodates the expected number of participants.
+Accessible location with appropriate facilities (restrooms, parking, etc.)
+
+* Diverse Yoga Classes:
+A variety of yoga classes or sessions to cater to different preferences and levels (e.g., vinyasa, hatha, restorative, meditation).
+Workshops or masterclasses led by expert instructors.
+
+* Mindfulness or Meditation Spaces:
+
+Dedicated spaces for meditation or mindfulness practices.
+Quiet zones for participants to relax and unwind.
+
