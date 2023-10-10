@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import moment from 'moment';
 
 
 const Navbar = () => {
@@ -37,19 +38,18 @@ const Navbar = () => {
                 </li>
                 <li>
             
-                <NavLink
-  to="/contact"
-  className={({ isActive, isPending }) =>
-    isPending ? "pending text-lg" : isActive ? "text-red-500 underline font-bold" : ""
-  }
+            <NavLink
+to="/offer"
+className={({ isActive, isPending }) =>
+isPending ? "pending " : isActive ? "text-red-500 underline font-bold" : ""
+}
 >
-  Contact us
-                </NavLink>
-                
+Review
+            </NavLink>
 
 
-                </li>
-                <li>
+            </li>
+            <li>
                 <NavLink to='tips'
   
   className={({ isActive, isPending }) =>
@@ -75,25 +75,30 @@ Register
             <li>
             
                 <NavLink
-  to="/offer"
+  to="/contact"
   className={({ isActive, isPending }) =>
-    isPending ? "pending " : isActive ? "text-red-500 underline font-bold" : ""
+    isPending ? "pending text-lg" : isActive ? "text-red-500 underline font-bold" : ""
   }
 >
-  Offer
+  Contact us
                 </NavLink>
+                
 
 
                 </li>
+           
             </ul>
            </div>
            <div>
-            <NavLink to='/login'><button>Login</button></NavLink>
+            <NavLink to='/login'><button className="text-lg font-semibold text-blue-400">Login</button></NavLink>
            </div>
             
            
         </nav> 
+        <p className="text-base text-center -mt-10 ">{moment().format("dddd, MMMM D YYYY")}</p>
+        <br /> <br />
     </div>
+    
   )
 }
 
