@@ -90,7 +90,7 @@ Register
             </ul>
            </div>
            <div>
-            <NavLink to='/login'><button className="text-lg font-semibold text-blue-400">Login</button></NavLink>
+            <NavLink to='/login'><button className="text-lg px-3 py-1 rounded-lg bg-slate-200 font-semibold text-blue-400">Login</button></NavLink>
            </div>
             
            
